@@ -181,3 +181,5 @@ Log file closed, 02/23/18 15:27:10
 # Install Windows 8.1 SDK
 
 * [Microsoft: Old releases](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive)
+
+![image_9](images/image_9.png)
