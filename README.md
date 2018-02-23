@@ -123,3 +123,30 @@ LogModuleManager: Shutting down and abandoning module PakFile (1)
 LogExit: Exiting.
 Log file closed, 02/23/18 11:56:32
 ```
+
+# Building UE 4.5 from source in case that's needed to build Plugins
+
+* Checkout the [4.5](https://github.com/EpicGames/UnrealEngine/tree/4.5) source
+
+```
+git clone -b 4.5 https://github.com/EpicGames/UnrealEngine
+```
+
+# Unpack the dependencies into the checkout folder:
+
+```
+Required_1of2.zip
+Required_2of2.zip
+```
+
+# Run GenerateProjectFiles.bat
+
+```
+GenerateProjectFiles.bat
+```
+
+# Open UE4.sln
+
+# Build `Development Editor` for `Win64`
+
+# Wait 40 minutes...
