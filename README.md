@@ -1,4 +1,6 @@
-# Initial creation of the project in UE 4.5
+# Process for building a UE4 plugin in UE 4.5
+
+# Initial creation of the project
 
 ![image_1](images/image_1.png)
 
