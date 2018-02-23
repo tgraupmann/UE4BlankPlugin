@@ -150,3 +150,34 @@ GenerateProjectFiles.bat
 # Build `Development Editor` for `Win64`
 
 # Wait 40 minutes...
+
+# Built with source build with same result
+
+```
+Log file open, 02/23/18 15:26:57
+LogInit:Display: Running engine for game: UE4BlankPlugin
+LogInit:Warning: Incompatible or missing module: UE4Editor-BlankPlugin2.dll
+Running C:/UnrealEngine/UnrealEngine_4_5/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4BlankPlugin Development Win64 -project="C:/Public/UE4BlankPlugin/UE4BlankPlugin.uproject" -editorrecompile -progress
+Target is up to date.
+LogInit:Warning: Still incompatible or missing module: UE4Editor-BlankPlugin2.dll
+LogExit: Preparing to exit.
+LogModuleManager: Shutting down and abandoning module DesktopPlatform (13)
+LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+LogModuleManager: Shutting down and abandoning module Renderer (7)
+LogModuleManager: Shutting down and abandoning module Engine (6)
+LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+LogModuleManager: Shutting down and abandoning module PakFile (1)
+LogExit: Exiting.
+Log file closed, 02/23/18 15:27:10
+```
+
+# Install Windows 8.1 SDK
+
+* [Microsoft: Old releases](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive)
